@@ -468,7 +468,8 @@ extern "C" void *ThreadStats(void *)
     return nullptr;
 }
 
-static const string mainnet_seeds[] = {"127.0.0.1", 
+static const string mainnet_seeds[] = {"seed.neoxa.net",
+                                       "127.0.0.1",
                                        ""};
 static const string testnet_seeds[] = {"",
                                        ""};
