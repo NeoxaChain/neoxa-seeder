@@ -12,7 +12,7 @@
 #include <getopt.h>
 #include <atomic>
 
-#include "NEOXAcoin.h"
+#include "neoxacoin.h"
 #include "db.h"
 
 using namespace std;
@@ -44,7 +44,7 @@ public:
 
     void ParseCommandLine(int argc, char **argv)
     {
-        static const char *help = "NEOXAcoin-seeder\n"
+        static const char *help = "neoxacoin-seeder\n"
                                   "Usage: %s -h <host> -n <ns> [-m <mbox>] [-t <threads>] [-p <port>]\n"
                                   "\n"
                                   "Options:\n"
