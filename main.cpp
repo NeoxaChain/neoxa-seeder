@@ -468,13 +468,9 @@ extern "C" void *ThreadStats(void *)
     return nullptr;
 }
 
-static const string mainnet_seeds[] = {"seed-raven.bitactivate.com",
-                                       "seed-raven.ravencoin.com",
-                                       "seed-raven.ravencoin.org",
+static const string mainnet_seeds[] = {"127.0.0.1", 
                                        ""};
-static const string testnet_seeds[] = {"seed-testnet-raven.bitactivate.com",
-                                       "seed-testnet-raven.ravencoin.com",
-                                       "seed-testnet-raven.ravencoin.org",
+static const string testnet_seeds[] = {"",
                                        ""};
 static const string regtest_seeds[] = {"localhost",
                                        ""};
@@ -485,7 +481,7 @@ extern "C" void *ThreadSeeder(void *)
 {
     if (!fTestNet && !fRegTest)
     {
-        db.Add(CService("kjy2eqzk4zwi5zd3.onion", 8767), true);
+        db.Add(CService("kjy2eqzk4zwi5zd3.onion", 8788), true);
     }
     do
     {
