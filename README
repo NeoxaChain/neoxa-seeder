@@ -1,7 +1,7 @@
-ravencoin-seeder
+NEOXAcoin-seeder
 ==============
 
-Ravencoin-seeder is a crawler for the Ravencoin network, which exposes a list
+NEOXAcoin-seeder is a crawler for the NEOXAcoin network, which exposes a list
 of reliable nodes via a built-in DNS server.
 
 Features:

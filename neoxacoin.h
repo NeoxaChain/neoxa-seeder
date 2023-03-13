@@ -1,5 +1,5 @@
-#ifndef _RVNCOIN_H_
-#define _RVNCOIN_H_ 1
+#ifndef _NEOXACOIN_H_
+#define _NEOXACOIN_H_ 1
 
 #include "protocol.h"
 

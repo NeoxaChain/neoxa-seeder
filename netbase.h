@@ -1,9 +1,9 @@
 // Copyright (c) 2009-2012 The Bitcoin developers
-// Copyright (C) 2020 The Raven Core developers
+// Copyright (C) 2020 The NEOXA Core developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-#ifndef RVNCOIN_NETBASE_H
-#define RVNCOIN_NETBASE_H
+#ifndef NEOXACOIN_NETBASE_H
+#define NEOXACOIN_NETBASE_H
 
 #include <string>
 #include <vector>

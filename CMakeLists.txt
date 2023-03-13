@@ -1,13 +1,13 @@
 cmake_minimum_required(VERSION 3.15)
-project(ravencoin_seeder)
+project(NEOXAcoin_seeder)
 
 set(CMAKE_CXX_STANDARD 14)
 
 include_directories(.)
 
-add_executable(ravencoin_seeder
-        ravencoin.cpp
-        ravencoin.h
+add_executable(NEOXAcoin_seeder
+        NEOXAcoin.cpp
+        NEOXAcoin.h
         combine.pl
         compat.h
         db.cpp

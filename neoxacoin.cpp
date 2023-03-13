@@ -6,7 +6,7 @@
 #include "serialize.h"
 #include "uint256.h"
 
-#define RVNCOIN_SEED_NONCE  0x0539a019ca550825ULL // WHAT IS THIS!!!!!
+#define NEOXACOIN_SEED_NONCE  0x0539a019ca550825ULL // WHAT IS THIS!!!!!
 
 using namespace std;
 
@@ -90,7 +90,7 @@ class CNode
     void PushVersion()
     {
         int64 nTime = time(NULL);
-        uint64 nLocalNonce = RVNCOIN_SEED_NONCE;
+        uint64 nLocalNonce = NEOXACOIN_SEED_NONCE;
         int64 nLocalServices = 0;
         CAddress me(CService("0.0.0.0"));
         BeginMessage("version");
