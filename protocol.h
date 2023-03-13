@@ -21,7 +21,7 @@ extern bool fRegTest;
 
 static inline unsigned short GetDefaultPort(const bool testnet = fTestNet, const bool regtest = fRegTest)
 {
-    return testnet ? 18770 : (regtest ? 18444 : 8767);
+    return testnet ? 18770 : (regtest ? 18444 : 8788);
 }
 
 //
